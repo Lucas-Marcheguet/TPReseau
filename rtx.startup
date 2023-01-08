@@ -1,0 +1,5 @@
+/etc/init.d/ssh start
+source /shared/rezotrick
+ip addr add 81.82.83.1/24 dev eth0
+ip addr add 20.0.0.2/24 dev eth1
+ip addr add 22.0.0.1/24 dev eth2
